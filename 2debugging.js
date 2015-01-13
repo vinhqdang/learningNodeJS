@@ -3,7 +3,7 @@ var http = require ("http");
 
 function process_request (req, res) {
 	var body = "Hello\n";
-	var content_length = body.length;
+	var content_length = body.lenggth;
 	res.writeHead (200, {
 		'Content-Length': content_length,
 		'Content-Type':'text/plain'
